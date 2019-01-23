@@ -38,6 +38,9 @@ public class Main {
         double userInput6 = sc.nextDouble();
         dailyAverageTemp[6] = userInput6;
 
+        for(int i = 0; i <dailyAverageTemp.length; i++){
+            System.out.println(dailyAverageTemp[i]);
+        }
 
 
 
