@@ -41,17 +41,19 @@ public class Main {
         for(int i = 0; i < dailyAverageTemp.length; i++){
             System.out.println(dailyAverageTemp[i]);
         }
-
-        //double weeklyAverageTemp = sum of the array elements /7
-        //loop through the array and extract each element and add to a sum
-        //take that sum and turn into average
-
-
+        double totalTemps = 0;
+        for(int i = 0; i < dailyAverageTemp.length; i++) {
+            totalTemps += dailyAverageTemp[i];
         }
-
-
-
-
-
+        double averageWeeklyTemp = totalTemps / 7;
+            System.out.println(averageWeeklyTemp);
     }
 }
+
+
+
+
+
+
+
+
