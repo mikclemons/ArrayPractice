@@ -49,10 +49,12 @@ public class Main {
         double averageWeeklyTemp = totalTemps / 7;
             System.out.println("The weekly average temperature is " + averageWeeklyTemp + " degrees fahrenheit.");
 
-        System.out.println("This week's average temperatures in celsius are:");
+        //System.out.println("This week's average temperatures in celsius are:");
+        double[] dailyAverageTempCelsius = new double[6];
+        
         for(double temp : dailyAverageTemp){
             double celsiusTemp = (temp - 32) / 1.8;
-            System.out.println(celsiusTemp);
+
         }
     }
 }
