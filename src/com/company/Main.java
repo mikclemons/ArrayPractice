@@ -38,8 +38,15 @@ public class Main {
         double userInput6 = sc.nextDouble();
         dailyAverageTemp[6] = userInput6;
 
-        for(int i = 0; i <dailyAverageTemp.length; i++){
+        for(int i = 0; i < dailyAverageTemp.length; i++){
             System.out.println(dailyAverageTemp[i]);
+        }
+
+        //double weeklyAverageTemp = sum of the array elements /7
+        //loop through the array and extract each element and add to a sum
+        //take that sum and turn into average
+
+
         }
 
 
